@@ -1,0 +1,85 @@
+
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white; 
+  background-color: transparent; 
+}
+
+.custom-table thead tr th {
+  background-color: transparent; 
+  color: white; 
+  text-align: left;
+  border-right: none; 
+}
+
+.custom-table tbody tr {
+  border-bottom: 1px solid #645e5e; 
+  background-color: transparent; 
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  background-color: transparent; 
+}
+
+.custom-table tbody tr:hover,
+.custom-table tbody tr:focus {
+  background-color: transparent; 
+}
+
+.custom-table td {
+  padding: 9px; 
+}
+
+.custom-table img {
+  border-radius: 50%; 
+}
+
+
+
+
+
+/* .custom-table .ant-table-wrapper {
+  background: none;
+  padding: 0;
+  overflow-x: auto; 
+}
+
+.custom-table .ant-table {
+  background: none;
+  color: white; 
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background: none;
+  color: white; 
+  border-right: none !important; 
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  color: white; 
+  padding: 8px 12px; 
+}
+
+.custom-table .ant-table-cell {
+  border: none; 
+}
+
+.custom-table .ant-table-tbody > tr {
+  border-bottom: 1px solid #2b2b33; 
+}
+
+.custom-table .ant-table-tbody > tr.ant-table-row:nth-child(odd) {
+  background: none !important;
+}
+
+.custom-table .ant-table-tbody > tr > td:hover,
+.custom-table .ant-table-tbody > tr > td:focus {
+  background: #d8d0d0 !important; 
+  color: black !important; 
+}
+
+.custom-table .ant-table-thead > tr {
+  border-bottom: none;
+} */

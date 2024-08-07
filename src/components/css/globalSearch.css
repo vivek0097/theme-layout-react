@@ -1,0 +1,37 @@
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; 
+  }
+  
+
+  .search-container .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff; 
+    font-size: 18px; 
+  }  
+
+
+  .search-inpt {
+    width: 100%;
+    padding: 8px 8px 8px 40px; 
+    background: #b5bab271;
+    border: #b2bab793 1px solid;
+    border-radius: 4px;
+    color: #f3f2f2;
+    line-height: 1.4;
+  }
+  
+  .search-inpt::placeholder {
+    color: #fff;
+  }
+  
+  @media (max-width: 786px) {
+    .search-inpt {
+      padding: 6px 6px 6px 30px;
+      line-height: 0.8; 
+    }
+  }
